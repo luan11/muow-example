@@ -19,57 +19,39 @@
 					<h4>Code example:</h4>
 				</div>
 				<div class="card-body">
-<pre>
-<code>
+					<pre>
+						<code>
 new Muow({
-	chat: true,
-	phone: {
-		countryCode: '55',
-		number: '11912345678',
-	},
-	profilePicture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
-	profileName: 'luan11',
-	messageFieldPlaceholder: 'Write what you need...',
+	phone: '+55 (11) 91111-1111',
 	defaultMessage: 'Hello, have a time to talk to me?',
-	icons: {
-		whatsapp: 'assets/images/whatsapp-icon-muow.svg',
-		close: 'assets/images/close-muow.svg',
-		send: 'assets/images/send-muow.svg',
+	profile: {
+	picture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
+	name: 'Luan Novais'
 	},
-	notificationSound: 'assets/audios/notification.mp3',
-	playNotificationSound: true,
+	messageFieldPlaceholder: 'Write what you need...'
 });
-</code>
-</pre>
-				</div>
-				<div class="card-footer">
-					<a class="btn btn-dark d-table mx-auto font-weight-bold" href="https://github.com/luan11/muo-whatsapp" target="_blank" rel="noopener">View on GitHub</a>
-				</div>
-			</div>
-		</div>
+			</code>
+		</pre>
 	</div>
-	
-	<script src="assets/js/muow.min.js"></script>
+	<div class="card-footer">
+		<a class="btn btn-dark d-table mx-auto font-weight-bold" href="https://github.com/luan11/muo-whatsapp" target="_blank" rel="noopener">View on GitHub</a>
+	</div>
+</div>
+</div>
+</div>
 
-	<script>
-		new Muow({
-			chat: true,
-			phone: {
-				countryCode: '55',
-				number: '11912345678',
-			},
-			profilePicture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
-			profileName: 'luan11',
-			messageFieldPlaceholder: 'Write what you need...',
-			defaultMessage: 'Hello, have a time to talk to me?',
-			icons: {
-				whatsapp: 'assets/images/whatsapp-icon-muow.svg',
-				close: 'assets/images/close-muow.svg',
-				send: 'assets/images/send-muow.svg',
-			},
-			notificationSound: 'assets/audios/notification.mp3',
-			playNotificationSound: true,
-		});
-	</script>
+<script src="assets/js/muow.min.js"></script>
+
+<script>
+	new Muow({
+		phone: '+55 (11) 91111-1111',
+		defaultMessage: 'Hello, have a time to talk to me?',
+		profile: {
+			picture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
+			name: 'Luan Novais'
+		},
+		messageFieldPlaceholder: 'Write what you need...'
+	});
+</script>
 </body>
 </html>
